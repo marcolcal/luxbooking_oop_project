@@ -1,3 +1,8 @@
+/*
+ * Created by Marco Alfaro
+ * Copyright (c) 2018.
+ */
+
 package com.trip.itinerary;
 
 import java.math.BigDecimal;
@@ -5,9 +10,7 @@ import com.trip.payment.IPaymentType;
 
 /**
  * This class is used to store the bill.
- * 
- * @author Marco
- * @version November 25, 2018 
+ *
  */
 
 public class Bill {
@@ -26,7 +29,6 @@ public class Bill {
      * 
      * @param id
      * @param totalPrice
-     * @param paymentStatus
      */
     public Bill(int id, BigDecimal totalPrice, IPaymentType payment) {
         this.id = id;
@@ -98,7 +100,7 @@ public class Bill {
     }
 
     /**
-     * @param paymentStatus the paymentStatus to set
+     * @param payment the paymentStatus to set
      */
     public void setPaymentStatus(IPaymentType payment) {
         this.payment = payment;

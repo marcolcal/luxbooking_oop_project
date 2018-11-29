@@ -1,7 +1,12 @@
+/*
+ * Created by Marco Alfaro
+ * Copyright (c) 2018.
+ */
+
 package com.trip.itinerary;
 
 /**
- * @author Marco
+ * Trip state abstract class the each state uses
  *
  */
 public abstract class TripState {

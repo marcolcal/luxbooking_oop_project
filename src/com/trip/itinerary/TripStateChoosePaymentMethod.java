@@ -64,7 +64,10 @@ public class TripStateChoosePaymentMethod extends TripState {
         getTripContext().changeState(newState);
         return TripLoop.Status.CONTINUE;
     }
-    
+
+    /**
+     * checks if the user want to quit and save the trip by id
+     */
     private void checkIfUserSaveAndQuit() {
         System.out.println("Do you want to save and quit the application [y/n]?");
         Scanner sc = new Scanner(System.in);

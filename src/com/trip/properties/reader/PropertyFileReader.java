@@ -17,7 +17,7 @@ public class PropertyFileReader {
     private static String PROPERTY_FILE_NAME = "config.properties";
 
     /**
-     *
+     *stores the configurable parameters of the application.
      */
     public PropertyFileReader() {
         prop = new Properties();

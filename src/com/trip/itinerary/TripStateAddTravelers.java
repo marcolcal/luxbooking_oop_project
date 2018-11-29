@@ -1,3 +1,8 @@
+/*
+ * Created by Marco Alfaro
+ * Copyright (c) 2018.
+ */
+
 package com.trip.itinerary;
 
 import java.util.ArrayList;
@@ -43,6 +48,9 @@ public class TripStateAddTravelers extends TripState {
         return TripLoop.Status.CONTINUE;
     }
 
+    /**
+     * loads the traveler data and ask for the select option
+     */
     private void loadTravelerData() {
         System.out.println("Loading Traveler Profiles ...");
         System.out.println("Select the Traveler by typing the row number:");
@@ -68,7 +76,10 @@ public class TripStateAddTravelers extends TripState {
         }
 
     }
-    
+
+    /**
+     * Checks if the user wants to save or quit by giving an id to the trip
+     */
     private void checkIfUserSaveAndQuit() {
         System.out.println("Do you want to save and quit [y/n]?");
         Scanner sc = new Scanner(System.in);

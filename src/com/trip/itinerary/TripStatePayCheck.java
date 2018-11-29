@@ -17,7 +17,7 @@ import com.trip.payment.PaymentCheck;
 public class TripStatePayCheck extends TripState {
 
     /**
-     * Trip State Pay Check Construnctor
+     * Trip State Pay Check Constructor
      * 
      * @param tripContext
      */
@@ -38,6 +38,11 @@ public class TripStatePayCheck extends TripState {
         return TripLoop.Status.CONTINUE;
     }
 
+
+    /**
+     * Displays total price
+     * @param trip
+     */
     private void displayTotalPrice(Trip trip) {
         System.out.println("Cost of the Trip:" + trip.getCost());
     }

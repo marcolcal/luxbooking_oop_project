@@ -1,12 +1,14 @@
+/*
+ * Created by Marco Alfaro
+ * Copyright (c) 2018.
+ */
+
 package com.trip.itinerary;
 
 import com.trip.models.Trip;
 
 /**
  * Trip context
- * 
- * @author Marco
- * @version 25 November 2018
  *
  */
 public class TripContext {

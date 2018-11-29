@@ -7,6 +7,7 @@ package com.trip.dao;
 
 import java.util.List;
 
+
 public class XmlDataPersistenceStrategy implements DataPersistenceStrategy {
 
     @Override

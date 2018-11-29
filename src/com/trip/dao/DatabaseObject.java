@@ -3,7 +3,7 @@
  * Copyright (c) 2018.
  */
 
-//this is the main
+
 package com.trip.dao;
 
 import java.util.List;

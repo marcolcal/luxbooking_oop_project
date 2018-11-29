@@ -1,5 +1,13 @@
+/*
+ * Created by Marco Alfaro
+ * Copyright (c) 2018.
+ */
+
 package com.trip.itinerary;
 
+/**
+ * enum class used across the states of the app
+ */
 public enum Status {
     CREATE, 
     ADD_TRAVELERS,

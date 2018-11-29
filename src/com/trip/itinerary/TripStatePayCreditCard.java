@@ -7,7 +7,6 @@ package com.trip.itinerary;
 
 import java.math.BigDecimal;
 import java.util.Scanner;
-
 import com.trip.models.Trip;
 import com.trip.payment.IPaymentType;
 import com.trip.payment.PaymentCreditCard;
@@ -46,7 +45,7 @@ public class TripStatePayCreditCard extends TripState {
     }
 
     /**
-     * Get Check
+     * Gets Credit card number and validates it
      * 
      * @param trip
      * @return IPaymentType

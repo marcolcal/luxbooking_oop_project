@@ -8,8 +8,6 @@ package com.trip.itinerary;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
-
-
 import com.trip.load.data.PackageSingleton;
 import com.trip.load.data.TravelAgentDataGetAndSave;
 import com.trip.load.data.TripDataGetAndSave;
@@ -50,7 +48,7 @@ public class TripStateAddPackages extends TripState {
     }
 
     /**
-     * loads data into packages
+     * loads data into the packages
      */
     private void loadPackageData() {
         System.out.println("Loading Package Profiles ...");

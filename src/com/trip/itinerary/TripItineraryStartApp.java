@@ -1,18 +1,17 @@
+/*
+ * Created by Marco Alfaro
+ * Copyright (c) 2018.
+ */
+
 package com.trip.itinerary;
 
-import java.util.List;
-import java.util.Scanner;
 import com.trip.load.data.ApplicationDataSetup;
-import com.trip.load.data.TravelAgentSingleton;
-import com.trip.models.Person;
 import com.trip.models.TravelAgent;
 import com.trip.models.Trip;
 
 /**
  * This class is used to start the application.
- * 
- * @author Marco Alfaro
- * @version November 25, 2018
+ *
  */
 public class TripItineraryStartApp {
 

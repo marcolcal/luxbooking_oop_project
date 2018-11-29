@@ -159,6 +159,9 @@ public class ApplicationDataSetup {
         System.out.println("--- Finished Setting Up Traveler Data ---");
     }
 
+    /**
+     * creates the place data the is used in the trip
+     */
     public static void createPlaceData() {
         System.out.println("--- Setting Up Places Data ---");
 
@@ -181,6 +184,9 @@ public class ApplicationDataSetup {
 
     }
 
+    /**
+     * Adds it to the package data
+     */
     public static void createPackageData() {
         System.out.println("--- Setting Up Package Deals ---");
 

@@ -1,12 +1,15 @@
+/*
+ * Created by Marco Alfaro
+ * Copyright (c) 2018.
+ */
+
 package com.trip.itinerary;
 
 import com.trip.models.Trip;
 
 /**
  * The Loop is responsible for looping through the application.
- * 
- * @author Marco
- * @version November 25, 2018
+ *
  */
 public class TripLoop {
 
@@ -40,6 +43,9 @@ public class TripLoop {
         return tripContext.getTrip();
     }
 
+    /**
+     * This is what allows each state to stop or continue
+     */
     public enum Status {
         CONTINUE, STOP
     }

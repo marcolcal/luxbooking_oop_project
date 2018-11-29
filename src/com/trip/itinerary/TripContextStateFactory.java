@@ -1,3 +1,8 @@
+/*
+ * Created by Marco Alfaro
+ * Copyright (c) 2018.
+ */
+
 package com.trip.itinerary;
 
 /**
@@ -9,8 +14,7 @@ package com.trip.itinerary;
  * ChosePayment
  * ThankYouNote
  * ShowItinerary
- * 
- * @author Marco
+ *
  *
  */
 public class TripContextStateFactory {

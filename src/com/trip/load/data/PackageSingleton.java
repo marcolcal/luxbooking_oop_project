@@ -7,7 +7,6 @@ package com.trip.load.data;
 
 import java.util.ArrayList;
 import java.util.List;
-
 import com.trip.dao.DataPersistenceStrategy;
 import com.trip.dao.DataPersitenceContext;
 import com.trip.models.PackageDeal;
