@@ -1,0 +1,7 @@
+com.trip.dao
+com.trip.itinerary
+com.trip.load.data
+com.trip.models
+com.trip.payment
+com.trip.properties.reader
+com.trip.transportation
